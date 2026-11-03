@@ -20,6 +20,7 @@ public class FrameBase extends JFrame implements KeyListener {
         this.setLayout(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLocation(300,50);
+        this.setTitle("TermoA3");
 
         caixa = new FieldBase[n][n];
 
