@@ -38,7 +38,6 @@ public class FrameBase extends JFrame implements KeyListener {
 
         for (int x = 0; x < 5; x++){
             letras[x] = sorteada.charAt(x);
-            System.out.println(letras[x]);
         }
 
         this.setVisible(true);
@@ -108,6 +107,7 @@ public class FrameBase extends JFrame implements KeyListener {
                 principal = 0;
                 if (linha > 4){
                     JOptionPane.showMessageDialog(null,"HAHA perdeu otario");
+                    JOptionPane.showMessageDialog(null,"palavra:" +sorteada);
                     this.dispose();
                 }
                 caixa[linha][principal].requestFocus();

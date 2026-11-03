@@ -14,5 +14,6 @@ public class FieldBase extends JTextField {
         this.setLocation(x,y);
         this.setBorder(null);
         this.setEnabled(false);
+        this.setDisabledTextColor(Color.BLACK);
     }
 }
